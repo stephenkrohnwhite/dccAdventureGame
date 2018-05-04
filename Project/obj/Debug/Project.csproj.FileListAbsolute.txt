@@ -1,0 +1,7 @@
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\bin\Debug\Project.exe.config
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\bin\Debug\Project.exe
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\bin\Debug\Project.pdb
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\obj\Debug\Project.exe
+C:\Users\steph\Documents\DevCodeCamp\C#\AdventureGame\Project\Project\obj\Debug\Project.pdb
