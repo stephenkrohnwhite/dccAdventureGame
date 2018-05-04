@@ -10,7 +10,7 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            void Selector(int input, List<string> environment)
+            void SelectorOne(int input, List<string> area)
             {
                 switch(input)
                 {
@@ -19,15 +19,33 @@ namespace Project
                         RoadRunner();
                         break;
                     case 1:
-                        Console.WriteLine(environment[0]);
+                        Console.WriteLine(area[0]);
                         break;
                     case 2:
-                        Console.WriteLine(environment[1]);
+                        Console.WriteLine(area[1]);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        RoadRunner();
                         break;
                     default:
                         break;
                 }
             }
+           
+           void EnvironmentSelector(int input)
+            {
+                switch (input)
+                {
+                    case 0:
+                        Console.Clear();
+                        RoadRunner();
+                        break;
+                    default:
+                        break;
+                }
+            }
+            
             void RoadRunner()
             {
                 Road rd = new Road();
@@ -36,7 +54,11 @@ namespace Project
                 string roadOneInput = rd.getFirstInput();
                 string roadOneLower = rd.LowerInput(roadOneInput);
                 int rdOneReturn = rd.UserStringSelector(roadOneLower, rd.roadOptionOne);
-                Selector(rdOneReturn, );
+                SelectorOne(rdOneReturn, rd.areaTwo);
+                string roadTwoInput = rd.FaceBeast();
+                string roadTwoLower = rd.LowerInput(roadTwoInput);
+                int rdTwoReturn = rd.UserStringSelector(roadTwoLower, rd.beastsAlive);
+                EnvironmentSelector(rdTwoReturn);
             }
             RoadRunner();
             Console.ReadLine();
